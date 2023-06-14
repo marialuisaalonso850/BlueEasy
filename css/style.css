@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Cabin:ital,wght@0,400;1,400;1,500;1,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,21 +9,25 @@
     list-style: none;
 }
 
-a{
+a {
     font-size: 15px;
     text-decoration: none;
     color: rgb(249, 249, 249); 
 }
-span{
+
+span {
     color: rgb(54, 165, 244);
 }
-ul{
+
+ul {
     list-style: none;
 }
-.texto{
-    gap:10px;
+
+.texto {
+    gap: 10px;
 }
-.navbar{
+
+.navbar {
     background-color: rgba(0, 0, 0, 0.313);
     height: 100px;
     position: absolute;
@@ -36,36 +40,37 @@ ul{
     padding: 70px 10% 60px;
 }
 
-.ort{
+.ort {
     color: #fff;
-    background-color: #515f67 ;
+    background-color: #515f67;
     padding: 10px 15px;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     align-items: center;
 }
 
-.nav-links li{
+.nav-links li {
     margin: 0 30px;
 }
 
-.nav-links a.activo{
-    color:rgb(54, 165, 244);
-}
-
-.nav-links a:hover{
+.nav-links a.activo {
     color: rgb(54, 165, 244);
 }
 
-header{
+.nav-links a:hover {
+    color: rgb(54, 165, 244);
+}
+
+header {
     background-image: url(../images/Fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
 }
-.ocupation{
+
+.ocupation {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,8 +80,7 @@ header{
     gap: 5px;
 }
 
-
-.todo{
+.todo {
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -85,21 +89,20 @@ header{
     background-color: rgb(54, 165, 244);
     gap: 40px;
     padding: 70px 10% 60px;
-    
 }
 
-.ctn{
+.ctn {
     border: 3px rgb(54, 165, 244) solid;
     padding: 6px 25px;
-    color:rgb(54, 165, 244);
+    color: rgb(54, 165, 244);
 }
 
-
-.muestra{
+.muestra {
     width: 260px;
     color: aliceblue;
 }
-.menub{
+
+.menub {
     height: 150px;
     position: absolute;
     display: flex;
@@ -110,31 +113,35 @@ header{
     color: rgb(0, 0, 0); 
     padding: 70px 10% 60px;
 }
-.menub a{
-    color:rgb(0, 0, 0)
+
+.menub a {
+    color: rgb(0, 0, 0);
 }
-.mimi{
+
+.mimi {
     height: 870px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding: 70px 10% 60px;
 }
-.imagesc{
+
+.imagesc {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows:300px 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px;
     gap: 40px;
 }
-.numero1 p{
-    margin: 20px 10px ;
+
+.numero1 p {
+    margin: 20px 10px;
 }
 
-.conteni{
-    margin:20px 10px ;
+.conteni {
+    margin: 20px 10px;
 }
 
-.mitodo{
+.mitodo {
     display: flex;
     background-color: #515f67;
     height: 600px;
@@ -143,138 +150,150 @@ header{
     gap: 86px;
     padding: 70px 10% 60px;
 }
+
 .hihi {
     width: 740px;
     color: #fff;
 }
 
-.hihi p{
+.hihi p {
     margin: 10px 10px 0;
 }
-.boton{
+
+.boton {
     padding: 10px 30px;
     border: 3px #222222 solid;
-    color:#222222
+    color: #222222;
 }
-.bajo{
+
+.bajo {
     border-bottom: 2px #fff solid;
-    color:#fff;
+    color: #fff;
 }
 
-.bajo-oscuro{
+.bajo-oscuro {
     border-bottom: 2px #222222 solid;
-    color:#222222 ;
+    color: #222222;
 }
 
-.video img{
+.video img {
     width: 460px;
 }
-.principal{
+
+.principal {
     padding: 70px 10% 60px;
     background-color: rgb(54, 165, 244);
-    color:#f1f1f1
+    color: #f1f1f1;
 }
-.primero{
+
+.primero {
     padding: 10px 15px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.hpu p{
+
+.hpu p {
     font-size: 25px;
 }
-.principal1{
+
+.principal1 {
     padding: 70px 10% 60px;
     background-color: rgb(255, 255, 255);
-    color:#0a0a0a;
+    color: #0a0a0a;
     line-height: 3rem;
 }
-.primero1{
+
+.primero1 {
     padding: 10px 15px;
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
 }
-.hp1{
+
+.hp1 {
     font-size: 25px;
     margin: 0 10px;
 }
 
-.otraclave{
+.otraclave {
     color: rgb(54, 165, 244);
 }
-.nuevo{
-    color:#fff;
+
+.nuevo {
+    color: #fff;
 }
 
-.prince{
+.prince {
     background-image: url(../images/bg_whoIs.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    color:rgb(249, 249, 249);
+    color: rgb(249, 249, 249);
     padding: 70px 10% 60px;
-    
 }
-.por-inten{
+
+.por-inten {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-.seccionDos{
+
+.seccionDos {
     margin-top: auto;
 }
-.contiene-todo{
+
+.contiene-todo {
     padding: 70px 10% 60px;
     background: url(../images/bg_contact.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color:#fff
+    color: #fff;
 }
-.intento{
+
+.intento {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 5px 25px;
 }
 
-.intento-caja input{
+.intento-caja input {
     background: transparent;
     width: 300px;
     height: 55px;
     border: 3px #fff solid;
 }
 
-label{
-    display: block; 
-    float: center; 
+label {
+    display: block;
+    float: center;
 }
 
-.grande{
+.grande {
     width: 100%;
     background: transparent;
     height: 200px;
     border: 3px #fff solid;
 }
 
-.esquina{
+.esquina {
     width: 50%;
 }
 
 .pequeño {
-    width: 50% ;
+    width: 50%;
 }
 
-.ampliar{
+.ampliar {
     background: rgb(54, 165, 244);
-    color:#fff;
+    color: #fff;
     padding: 10px 100px;
     border: none;
     cursor: pointer;
 }
 
-.fooder{
+.fooder {
     height: 15vh;
     background: #353f48;
     display: flex;
@@ -283,23 +302,23 @@ label{
     padding: 70px 10% 60px;
 }
 
-.fin{
-   color: #535d66; 
-   background: #353f48;
-   border-right: 2px solid #535d66;
-   padding: 0 20px;
-   height: 30%;
-   
+.fin {
+    color: #535d66;
+    background: #353f48;
+    border-right: 2px solid #535d66;
+    padding: 0 20px;
+    height: 30%;
 }
-.conjunto a{
+
+.conjunto a {
     margin: 0 5px 10px;
 }
-.ride{
-    color: #535d66; 
+
+.ride {
+    color: #535d66;
     font-size: 97%;
     background: #353f48;
 }
-
 
 /* Estilos para pantalla grande (>= 857px) */
 @media (min-width: 857px) {
@@ -400,9 +419,3 @@ label{
         grid-template-rows: repeat(8, 300px);
     }
 }
-
-
-
-
-
-
