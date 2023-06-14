@@ -381,25 +381,26 @@ label {
 }
 
 /* Estilos para dispositivos móviles pequeños (>= 480px) */
-@media (min-width: 480px) and (max-width: 599px) {
-    .navbar {
-        padding: 18px 3%;
-    }
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
 
-    .todo,
-    .mimi,
-    .mitodo,
-    .prince,
-    .principal1 {
-        padding: 70px 3% 60px;
-    }
+  .box {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 
-    .imagesc {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 300px);
-    }
+  .imagesc {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .imagesc > * {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
-
 /* Estilos para dispositivos móviles (>= 320px) */
 @media (min-width: 320px) and (max-width: 479px) {
     .navbar {
